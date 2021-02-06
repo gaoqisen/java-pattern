@@ -64,7 +64,7 @@ main方法实现
 ```
 public class run {
 	public static void main(String args[]) {
-		// 简单工厂模式 生产月饼
+		// easyfactory 生产月饼
 		SimpleFactory simpleFactory = new SimpleFactory();
 		new MoonCakeFactory(simpleFactory).orderMoonCake("meat");
 	}
@@ -148,7 +148,7 @@ main方法实现
 ```
 public class run {
 	public static void main(String args[]) {
-		// 工厂方法模式 生产月饼
+		// factorymethod 生产月饼
 		MoonCakeStore mcs = new SouthMoonCakeStroe();
 		MoonCakeStore smcs = new NorthMoonCakeStore();
 		
@@ -320,11 +320,11 @@ public class run {
 糖陷月饼
 ```
 ## 三、UML类图
-![简单工厂模式      ](https://upload-images.jianshu.io/upload_images/7172355-e25809d542ed6799.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![easyfactory      ](https://upload-images.jianshu.io/upload_images/7172355-e25809d542ed6799.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![工厂方法模式](https://upload-images.jianshu.io/upload_images/7172355-5937266ecfea4c1b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![factorymethod](https://upload-images.jianshu.io/upload_images/7172355-5937266ecfea4c1b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![抽象工厂模式](https://upload-images.jianshu.io/upload_images/7172355-af03f70212447f70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![abstractfactory](https://upload-images.jianshu.io/upload_images/7172355-af03f70212447f70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 四、笔记
 

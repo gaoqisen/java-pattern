@@ -1,4 +1,4 @@
-# 设计模式（java）策略模式
+# 设计模式（java）strategy
 &emsp;&emsp;最近在读head frist 的设计模式。之前就了解过这本书的，感觉还不错，于是就在淘宝上入手了一本。书有500多页挺厚的一本，内容都是很容易上手的，当成漫画看就可以了。本着学习的态度，我想认认真真的把设计模式好好学习一下。设计模式很多，一个一个的学，学完一个，我就在这里纪录一下自己的学习成果、自己对设计模式的理解、以及一些笔记。
 ## 一、对策略模式的理解
 &emsp;&emsp;关于策略模式，我看完书之后回忆的起来的大概就是建立一个抽象类，抽象除类的不改变的属性，如动物的名字、年龄等这些都是每个动物都有的，不会改变的。
@@ -108,6 +108,6 @@
 
 ## 三、UML
 画的不正规的uml图
-![策略模式-UML.png](https://upload-images.jianshu.io/upload_images/7172355-0d16b6383d232c30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![strategy-UML.png](https://upload-images.jianshu.io/upload_images/7172355-0d16b6383d232c30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 github源码：[https://github.com/gaoqisen/java-pattern](https://github.com/gaoqisen/java-pattern)

@@ -6,7 +6,7 @@ public class Composite extends Component{
 	private LinkedList<Component> childer; 
 	public Composite(String name) {
 		super(name);
-		this.childer = new LinkedList<>();
+		this.childer = new LinkedList<Component>();
 	}
 	
 	@Override

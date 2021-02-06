@@ -9,7 +9,7 @@ public class run {
 		SocketTwo stwo = new SocketAdapter(st);
 		stwo.chargeTwo();
 		
-		// 外观模式
+		// facade
 		TV tv = new TV();
 		Light light = new Light();
 		Stove stove = new Stove();

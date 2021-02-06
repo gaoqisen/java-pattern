@@ -21,6 +21,7 @@ public class sun {
 }
 // 月亮（双重检查加锁）
 class moon {
+	// 单例模式必须加volatile  防止指令重排序(java偶尔会出现这种情况)
 	// volatile 当moon初始化为实例时，能保证多个线程正确的处理moon变量
 	private volatile static moon m;
 	
